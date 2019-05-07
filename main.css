@@ -1,0 +1,48 @@
+#navbar {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ddd;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  #navbar {
+    padding-left: -200px;
+  }
+}
+#navbar header {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+#navbar a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+#navbar a:hover {
+  color: #222;
+}
+#navbar li {
+  list-style-type: none;
+}
+#main-doc {
+  margin-left: 200px;
+}
+#main-doc header {
+  font-weight: bold;
+  padding-top: 10px;
+}
+#main-doc li {
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+#main-doc code {
+  display: block;
+  background-color: #ccc;
+  padding: 10px;
+}
